@@ -18,7 +18,7 @@ const Contact = () => {
 					transition={{ delay: 0.1 }}
 					viewport={{ once: true }}
 					className='section-heading text-light-dark'>
-					My Projects
+					Contact me
 				</motion.p>
 			</SectionHeading>
 
@@ -29,7 +29,7 @@ const Contact = () => {
 				viewport={{ once: true }}
 				className='text-gray-700 dark:text-gray-200 text-center font-abel sm-md-paragraph-text'>
 				Please contact me directly at{" "}
-				<a className='font-bold' href='mailto:ozorjijoshua@gmail.com'>
+				<a className='font-bold underline' href='mailto:ozorjijoshua@gmail.com'>
 					ozorjijoshua@gmail.com
 				</a>{" "}
 				or through this form

@@ -28,7 +28,7 @@ const About = () => {
 				whileInView={{ opacity: 1, y: 0 }}
 				transition={{ delay: 0.2 }}
 				viewport={{ once: true }}
-				className='font-abel text-sm md:text-lg md:leading-loose'>
+				className='font-abel sm-md-paragraph-text md:leading-loose'>
 				Over the last one year, I made the choice to follow my genuine passion -
 				web development. I have dedicated myself to self-learning and gaining
 				expertise in programming languages, web development frameworks, and

@@ -22,7 +22,7 @@
 }
 
 .sm-md-paragraph-text {
-	@apply text-sm md:text-base;
+	@apply text-[1rem] md:text-lg;
 }
 .image-container {
 	height: 30vh;
