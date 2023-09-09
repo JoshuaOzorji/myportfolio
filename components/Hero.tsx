@@ -22,7 +22,7 @@ const Hero = () => {
 					initial={{ y: 75, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ delay: 0.5 }}
-					className='font-chonburi text-3xl md:text-6xl md:px-36 font-bold px-10 text-light-dark md:leading-[4.3rem]'>{`Hello, I'm Josh, a full-stack developer. It's been an enjoyable 1+ years in this environment - web development.`}</motion.h1>
+					className='font-chonburi text-4xl md:text-6xl md:px-36 font-bold px-10 text-light-dark md:leading-[4.3rem]'>{`Hello, I'm Josh, a full-stack developer. It's been an enjoyable 1+ years in this environment - web development.`}</motion.h1>
 
 				<motion.div
 					initial={{ y: 75, opacity: 0 }}
