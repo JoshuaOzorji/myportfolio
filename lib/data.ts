@@ -6,8 +6,7 @@ import godaddy from "@/public/godaddyLandingPage1.png";
 import hotelApp from "@/public/hotelBookingApp1.png";
 import byteCrafters from "@/public/byteCrafters1.png";
 import byteStore from "@/public/byte-store1.png";
-import { FiExternalLink } from "react-icons/fi";
-import { FaGithubSquare } from "react-icons/fa";
+import portfolio from "@/public/portfolio1.png";
 
 import {
 	SiExpress,
@@ -101,7 +100,7 @@ export const projectsData = [
 	},
 	{
 		title: "Byte Crafters",
-		description: "A simple blog app",
+		description: "A simple blog web app, powered with SanityCMS backend",
 		tags: ["react", "typescript", "nextjs", "tailwind", "sanitycms"],
 		imageUrl: byteCrafters,
 		code: "https://github.com/JoshuaOzorji/bytecrafters",
@@ -110,7 +109,7 @@ export const projectsData = [
 	{
 		title: "Hotel App",
 		description:
-			"An hotel web app that allows users to browse available hotel rooms and filter them by maximum occupancy.",
+			"A simple hotel web app that allows users to browse available hotel rooms and filter them by maximum occupancy.",
 		tags: ["react", "tailwind", "headlessui", "swiperjs"],
 		imageUrl: hotelApp,
 		code: "https://github.com/JoshuaOzorji/hotel-app",
@@ -124,5 +123,22 @@ export const projectsData = [
 		imageUrl: godaddy,
 		code: "https://github.com/JoshuaOzorji/godaddy_app",
 		live: "https://godaddy-cloned.netlify.app/",
+	},
+
+	{
+		title: "Personal Portfolio Site",
+		description:
+			"This page documents a mini-map of my web development journey so far",
+		tags: [
+			"nextjs",
+			"tailwind",
+			"typescript",
+			"render",
+			"framer-motion",
+			"hot-toast",
+		],
+		imageUrl: portfolio,
+		code: "https://github.com/JoshuaOzorji/myportfolio",
+		live: "https://joshua-ozorji.vercel.app",
 	},
 ] as const;
