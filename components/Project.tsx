@@ -54,7 +54,7 @@ export default function Project({
 					</div>
 				</div>
 
-				<div className='flex flex-row text-slate-800 dark:text-slate-300 my-auto gap-x-2 md:gap-x-2 mt-4 pl-4 md:pl-0 font-abel mx-auto'>
+				<div className='flex flex-row text-slate-800 dark:text-slate-300 my-auto gap-x-2 md:gap-x-2 mt-4 md:pl-0 font-abel mx-auto'>
 					<Link
 						href={code}
 						target='_blank'
