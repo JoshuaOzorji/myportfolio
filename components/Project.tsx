@@ -54,11 +54,11 @@ export default function Project({
 					</div>
 				</div>
 
-				<div className='flex flex-row text-slate-800 dark:text-slate-300 text-left md:text-center md:mx-auto my-auto gap-x-2 md:gap-x-2 mt-3 pl-4 md:pl-0 font-abel'>
+				<div className='flex flex-row text-slate-800 dark:text-slate-300 my-auto gap-x-2 md:gap-x-2 mt-4 pl-4 md:pl-0 font-abel mx-auto'>
 					<Link
 						href={code}
 						target='_blank'
-						className='flex items-center justify-center border rounded-lg bg-slate-800 px-2 text-slate-100 hover:bg-slate-950'>
+						className='flex items-center justify-center border rounded-lg bg-slate-800 px-2 text-slate-100 hover:bg-slate-950 transition delay-300'>
 						<p className='sm-md-paragraph-text'>Github</p>
 						<AiFillGithub className='w-5 h-5 md:w-6 md:h-6  dark:hover:text-gray-100' />
 					</Link>
