@@ -5,8 +5,8 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { FiExternalLink } from "react-icons/fi";
-import { FaGithubSquare } from "react-icons/fa";
+import { TbExternalLink } from "react-icons/tb";
+import { AiFillGithub } from "react-icons/ai";
 import Link from "next/link";
 
 type ProjectProps = (typeof projectsData)[number];
@@ -54,12 +54,20 @@ export default function Project({
 					</div>
 				</div>
 
-				<div className='flex flex-row text-slate-800 dark:text-slate-300 text-left md:text-center md:mx-auto my-auto gap-x-1 md:gap-x-2 mt-3 pl-4 md:pl-0'>
-					<Link href={code} target='_blank'>
-						<FaGithubSquare className='w-5 h-5 md:w-6 md:h-6 hover:text-gray-950 dark:hover:text-gray-100' />
+				<div className='flex flex-row text-slate-800 dark:text-slate-300 text-left md:text-center md:mx-auto my-auto gap-x-2 md:gap-x-2 mt-3 pl-4 md:pl-0 font-abel'>
+					<Link
+						href={code}
+						target='_blank'
+						className='flex items-center justify-center border rounded-lg bg-slate-800 px-2 text-slate-100 hover:bg-slate-950'>
+						<p className='sm-md-paragraph-text'>Github</p>
+						<AiFillGithub className='w-5 h-5 md:w-6 md:h-6  dark:hover:text-gray-100' />
 					</Link>
-					<Link href={live} target='_blank'>
-						<FiExternalLink className='w-5 h-5 md:w-6 md:h-6 hover:text-gray-950 dark:hover:text-gray-100' />
+					<Link
+						href={live}
+						target='_blank'
+						className='flex items-center justify-center border rounded-lg bg-slate-800 px-2 hover:bg-slate-950'>
+						<p className='sm-md-paragraph-text text-slate-100'>Live</p>
+						<TbExternalLink className='w-5 h-5 md:w-6 md:h-6  dark:hover:text-gray-100 text-slate-100' />
 					</Link>
 				</div>
 			</motion.section>
