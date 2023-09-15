@@ -4,7 +4,7 @@ import React from "react";
 import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { easeOut, motion } from "framer-motion";
 import { TbExternalLink } from "react-icons/tb";
 import { AiFillGithub } from "react-icons/ai";
 import Link from "next/link";
@@ -26,6 +26,7 @@ export default function Project({
 			<motion.section
 				initial={{ opacity: 0, y: 25 }}
 				whileInView={{ opacity: 1, y: 0 }}
+				transition={{ delay: 0.5 }}
 				viewport={{ once: true }}
 				className='flex flex-col  mb-10 rounded-md cursor-default bg-white dark:bg-gray-900 px-0 pt-6 pb-5 border border-black/10 dark:border-white/10 text-gray-900 dark:text-gray-100 md:gap-y-0 transition-all duration-500 hover:bg-gray-50 dark:hover:bg-gray-900 hover:scale-[102%] hover:shadow-md'>
 				<div className='flex flex-col md:flex-row'>
@@ -59,14 +60,14 @@ export default function Project({
 						href={code}
 						target='_blank'
 						className='flex items-center justify-center border rounded-lg bg-slate-800 px-2 text-slate-100 hover:bg-slate-950 transition delay-300'>
-						<p className='sm-md-paragraph-text'>Github</p>
+						<p className='sm-md-paragraph-text'>github</p>
 						<AiFillGithub className='w-5 h-5 md:w-6 md:h-6  dark:hover:text-gray-100' />
 					</Link>
 					<Link
 						href={live}
 						target='_blank'
 						className='flex items-center justify-center border rounded-lg bg-slate-800 px-2 hover:bg-slate-950'>
-						<p className='sm-md-paragraph-text text-slate-100'>Live</p>
+						<p className='sm-md-paragraph-text text-slate-100'>live</p>
 						<TbExternalLink className='w-5 h-5 md:w-6 md:h-6  dark:hover:text-gray-100 text-slate-100' />
 					</Link>
 				</div>
