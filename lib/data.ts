@@ -7,6 +7,7 @@ import hotelApp from "@/public/hotelBookingApp1.png";
 import byteCrafters from "@/public/byteCrafters1.png";
 import byteStore from "@/public/byte-store1.png";
 import portfolio from "@/public/portfolio1.png";
+import fiverr from "@/public/fiverr-app1.jpg";
 
 import {
 	SiExpress,
@@ -89,6 +90,24 @@ export const skillsData = [
 ] as const;
 
 export const projectsData = [
+	{
+		title: "Fiverr App",
+		description:
+			"A user-friendly Fiverr clone, built with a sleek design using React. Secured with Stripe for safe payments and Express with JsonWebToken for protecting users information",
+		tags: [
+			"react",
+			"tailwind",
+			"stripe",
+			"express",
+			"tanstack query",
+			"nodejs",
+			"mongodb",
+		],
+
+		imageUrl: fiverr,
+		code: "https://github.com/JoshuaOzorji/fiverr-app",
+		live: "https://fiverr-appp.netlify.app/",
+	},
 	{
 		title: "Byte Store",
 		description:

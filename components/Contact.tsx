@@ -52,7 +52,7 @@ const Contact = () => {
 					toast.success("Email sent successfully!");
 				}}>
 				<input
-					className='h-12 rounded-md border border-black/10 dark:border-white/10 transition-all duration-300 p-4 dark:bg-opacity-50'
+					className='h-12 rounded-md border border-black/10 dark:border-white/10 transition-all duration-300 p-4 dark:bg-opacity-50 form-focus'
 					name='senderEmail'
 					type='email'
 					required
@@ -60,7 +60,7 @@ const Contact = () => {
 					placeholder='Your email'
 				/>
 				<textarea
-					className='h-52 my-3 rounded-md border border-black/10 dark:border-white/10 transition-all duration-300 p-4 dark:bg-opacity-80'
+					className='h-52 my-3 rounded-md border border-black/10 dark:border-white/10 transition-all duration-300 p-4 dark:bg-opacity-80 form-focus'
 					name='message'
 					placeholder='Your message'
 					required

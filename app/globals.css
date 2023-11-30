@@ -39,3 +39,7 @@
 .group-hover-container:hover .image-container .image-inner {
 	transform: translateY(-74%);
 }
+
+.form-focus {
+	@apply border active:outline-none focus:outline-none focus:border-[#9a8c98] dark:focus:border-[#ffff3f];
+}
