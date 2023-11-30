@@ -7,6 +7,7 @@ import ActiveSectionContextProvider from "@/context/ActiveSectionContext";
 import ThemeContextProvider from "@/context/ThemeContext";
 import { Toaster } from "react-hot-toast";
 import ThemeSwitch from "@/components/ThemeSwitch";
+import { StrictMode } from "react";
 
 const inter = Inter({
 	subsets: ["latin"],
@@ -50,16 +51,18 @@ export default function RootLayout({
 		<html lang='en' className='!scroll-smooth'>
 			<body
 				className={` ${inter.variable} ${abel.variable} ${noto.variable} ${chonburi.variable} bg-light-dark text-gray-950`}>
-				<ThemeContextProvider>
-					<ActiveSectionContextProvider>
-						<Header />
-						{children}
-						<Footer />
+				<StrictMode>
+					<ThemeContextProvider>
+						<ActiveSectionContextProvider>
+							<Header />
+							{children}
+							<Footer />
 
-						<Toaster position='bottom-right' />
-						<ThemeSwitch />
-					</ActiveSectionContextProvider>
-				</ThemeContextProvider>
+							<Toaster position='bottom-right' />
+							<ThemeSwitch />
+						</ActiveSectionContextProvider>
+					</ThemeContextProvider>
+				</StrictMode>
 			</body>
 		</html>
 	);
