@@ -29,9 +29,10 @@ const About = () => {
 				transition={{ delay: 0.2 }}
 				viewport={{ once: true }}
 				className='font-abel sm-md-paragraph-text md:leading-loose'>
-				Currently, I'm focused on writing clean codes and understanding the
+				{`Currently, I'm focused on writing clean codes and understanding the
 				logic behind clean codes, this gives me the push to work/collaborate on
-				projects more challenging than my previous. <br />
+				projects more challenging than my previous. `}
+				<br />
 				Over the last one year, I made the choice to follow my genuine passion -
 				web development. I have dedicated myself to self-learning and gaining
 				expertise in programming languages, web development frameworks, and

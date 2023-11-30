@@ -15,7 +15,7 @@ export const Reveal = ({ children, width = "fit-content" }: Props) => {
 
 	useEffect(() => {
 		mainControls.start("visible");
-	}, [isInView]);
+	}, [isInView, mainControls]);
 
 	return (
 		<div style={{ position: "relative", width, overflow: "hidden" }}>
