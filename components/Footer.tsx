@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Footer = () => {
+	const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+	useEffect(() => {
+		// Update the current year when the component mounts
+		setCurrentYear(new Date().getFullYear());
+	}, []);
+
 	return (
 		<footer className='font-abel text-xs w-full px-4 md:px-0 mx-auto md:max-w-[50%] mb-2 flex items-center justify-between border-t pt-3 pb-1 text-light-dark '>
-			<p>&copy; 2023</p>
+			<p>&copy; {currentYear}</p>
 			<div className='flex flex-row gap-4'>
 				<a
 					href='https://github.com/JoshuaOzorji'
