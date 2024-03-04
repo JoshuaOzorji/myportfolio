@@ -8,6 +8,7 @@ import byteCrafters from "@/public/byteCrafters1.png";
 import byteStore from "@/public/byte-store1.png";
 import portfolio from "@/public/portfolio1.png";
 import fiverr from "@/public/fiverr-app1.jpg";
+import reserva from "@/public/reserva-booking.jpg";
 
 import {
 	SiExpress,
@@ -90,6 +91,28 @@ export const skillsData = [
 ] as const;
 
 export const projectsData = [
+	{
+		title: "Reserva Booking",
+		description:
+			"Hotel and Apartment Booking App featuring secure JWT and HTTP cookie authentication, advanced searching, sorting, and filtering, seamless pagination, Stripe-integrated payments, sophisticated forms, image uploads, and effortless hotel/apartment management",
+		tags: [
+			"react",
+			"typescript",
+			"tailwind",
+			"react-form",
+			"stripe",
+			"express",
+			"react-query",
+			"nodejs",
+			"mongodb",
+			"cloudinary",
+		],
+
+		imageUrl: reserva,
+		code: "https://github.com/JoshuaOzorji/reserva-booking",
+		live: "https://reserva-booking.vercel.app",
+	},
+
 	{
 		title: "Fiverr App",
 		description:
