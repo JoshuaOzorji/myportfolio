@@ -59,14 +59,14 @@ export default function Project({
 					<Link
 						href={code}
 						target='_blank'
-						className='flex items-center justify-center border rounded-lg bg-slate-800 px-2 text-slate-100 hover:bg-slate-950 transition delay-300'>
+						className='flex items-center justify-center border bg-slate-800 px-2 text-slate-100 hover:bg-slate-950 transition delay-300'>
 						<p className='sm-md-paragraph-text'>github</p>
 						<AiFillGithub className='w-5 h-5 md:w-6 md:h-6  dark:hover:text-gray-100' />
 					</Link>
 					<Link
 						href={live}
 						target='_blank'
-						className='flex items-center justify-center border rounded-lg bg-slate-800 px-2 hover:bg-slate-950'>
+						className='flex items-center justify-center border bg-slate-800 px-2 hover:bg-slate-950'>
 						<p className='sm-md-paragraph-text text-slate-100'>live</p>
 						<TbExternalLink className='w-5 h-5 md:w-6 md:h-6  dark:hover:text-gray-100 text-slate-100' />
 					</Link>
