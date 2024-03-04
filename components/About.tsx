@@ -31,7 +31,7 @@ const About = () => {
 				className='font-abel sm-md-paragraph-text md:leading-loose'>
 				{`Currently, I'm focused on writing clean codes and understanding the
 				logic behind clean codes, this gives me the push to work/collaborate on
-				projects more challenging than my previous. `}
+				projects more challenging than my previous.`}
 				<br />
 				Over the last one year, I made the choice to follow my genuine passion -
 				web development. I have dedicated myself to self-learning and gaining

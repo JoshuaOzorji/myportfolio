@@ -37,7 +37,7 @@ export default function Project({
 							{tags.map((tag, index) => (
 								<li
 									key={index}
-									className='block text-white rounded-lg border bg-slate-800 px-2 items-center justify-center'>
+									className='block text-white rounded-lg border bg-slate-800 px-2 items-center justify-center font-light text-[10px] md:text-xs'>
 									{tag}
 								</li>
 							))}
