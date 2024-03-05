@@ -142,7 +142,8 @@ export const projectsData = [
 	},
 	{
 		title: "Byte Crafters",
-		description: "A simple blog web app, powered with SanityCMS backend",
+		description:
+			"A simple blog app, featuring a Sanity backend for managing contents, built with Next.js, Sanity.io, React, and Tailwind CSS.",
 		tags: ["react", "typescript", "nextjs", "tailwind", "sanitycms"],
 		imageUrl: byteCrafters,
 		code: "https://github.com/JoshuaOzorji/bytecrafters",
@@ -160,11 +161,11 @@ export const projectsData = [
 	{
 		title: "GoDaddy Landing Page",
 		description:
-			"A redesign of GoDaddy landing page developed using, React, Tailwind and React libraries e.g Swiper JS, Lazy loading etc",
+			"Redesigned GoDaddy landing page project developed using, React, Tailwind and React libraries e.g Swiper JS, Lazy loading",
 		tags: ["react", "tailwind", "swiperjs"],
 		imageUrl: godaddy,
 		code: "https://github.com/JoshuaOzorji/godaddy_app",
-		live: "https://godaddy-cloned.netlify.app/",
+		live: "https://godaddy-page.netlify.app",
 	},
 
 	{

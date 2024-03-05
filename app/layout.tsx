@@ -37,9 +37,8 @@ const noto = Noto_Serif({
 });
 
 export const metadata: Metadata = {
-	title: "Joshua Ozorji - Dev. Josh",
-	description:
-		"Josh is a full-stack developer still evolving in this environment",
+	title: "Joshua Ozorji - Web Developer",
+	description: "Josh is a full-stack developer",
 };
 
 export default function RootLayout({

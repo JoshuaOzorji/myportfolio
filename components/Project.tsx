@@ -33,7 +33,7 @@ export default function Project({
 					<div className='flex flex-col md:w-[50%] px-4 md:pl-6 md:pr-4 justify-evenly gap-y-2 md:gap-y-2'>
 						<h2 className='font-chonburi'>{title}</h2>
 						<p className='font-abel'>{description}</p>
-						<ul className='flex flex-wrap gap-2 font-abel font-light'>
+						<ul className='flex flex-wrap gap-2 font-abel '>
 							{tags.map((tag, index) => (
 								<li
 									key={index}
