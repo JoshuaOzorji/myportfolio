@@ -9,6 +9,7 @@ import byteStore from "@/public/byte-store1.png";
 import portfolio from "@/public/portfolio1.png";
 import fiverr from "@/public/fiverr-app1.jpg";
 import reserva from "@/public/reserva-booking.jpg";
+import apposwift from "@/public/apposwift.jpg";
 
 import {
 	SiExpress,
@@ -92,6 +93,31 @@ export const skillsData = [
 
 export const projectsData = [
 	{
+		title: "AppoSwift",
+		description:
+			"Food Ordering App featuring Auth0 for user authentication and registration/update functionalities. It offers comprehensive search, sort, filter, and pagination options. Users can effortlessly manage restaurants, upload images, and handle their shopping carts with Stripe integration for secure checkout, alongside a real-time order tracking status",
+		tags: [
+			"auth0",
+			"shadcn",
+			"react",
+			"typescript",
+			"tailwind",
+			"react-form",
+			"stripe",
+			"express",
+			"react-query",
+			"nodejs",
+			"mongodb",
+			"cloudinary",
+			"mongoose",
+		],
+
+		imageUrl: apposwift,
+		code: "https://github.com/JoshuaOzorji/apposwift",
+		live: "https://apposwift.vercel.app/",
+	},
+
+	{
 		title: "Reserva Booking",
 		description:
 			"Hotel and Apartment Booking App featuring secure JWT and HTTP cookie authentication, advanced searching, sorting, and filtering, seamless pagination, Stripe-integrated payments, sophisticated forms, image uploads, and effortless hotel/apartment management",
@@ -106,6 +132,7 @@ export const projectsData = [
 			"nodejs",
 			"mongodb",
 			"cloudinary",
+			"mongoose",
 		],
 
 		imageUrl: reserva,
