@@ -96,7 +96,7 @@ export const projectsData = [
 	{
 		title: "Social Hub",
 		description:
-			"A social media application built with the MERN stack. Inspired by Twitter, it enables users to create and delete posts, view others' posts, follow and unfollow users, like and comment on posts, manage user profiles, and receive notifications. Leveraging on Tanstack Query for managing states",
+			"A social media application built with the MERN stack. Inspired by Twitter, it enables users to create and delete posts, view others' posts, follow and unfollow users, like and comment on posts, manage user profiles, and receive notifications",
 		tags: [
 			"reactjs",
 			"typescript",
@@ -193,7 +193,7 @@ export const projectsData = [
 	{
 		title: "Byte Crafters",
 		description:
-			"A simple blog app, featuring a Sanity backend for managing contents, built with Next.js, Sanity.io, React, and Tailwind CSS.",
+			"A simple blog app, featuring a Sanity backend for managing contents, built with Next.js, Sanity.io, React, and Tailwind CSS",
 		tags: ["react", "typescript", "nextjs", "tailwind", "sanitycms"],
 		imageUrl: byteCrafters,
 		code: "https://github.com/JoshuaOzorji/bytecrafters",
@@ -202,7 +202,7 @@ export const projectsData = [
 	{
 		title: "Hotel App",
 		description:
-			"A simple hotel web app that allows users to browse available hotel rooms and filter them by maximum occupancy.",
+			"A simple hotel web app that allows users to browse available hotel rooms and filter them by maximum occupancy",
 		tags: ["react", "tailwind", "headlessui", "swiperjs"],
 		imageUrl: hotelApp,
 		code: "https://github.com/JoshuaOzorji/hotel-app",
