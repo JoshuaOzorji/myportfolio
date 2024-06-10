@@ -118,7 +118,7 @@ export const projectsData = [
 	{
 		title: "AppoSwift",
 		description:
-			"Food Ordering App featuring Auth0 for user authentication and registration/update functionalities. It offers comprehensive search, sort, filter, and pagination options. Users can effortlessly manage restaurants, upload images, and handle their shopping carts with Stripe integration for secure checkout, alongside a real-time order tracking status",
+			"Food Ordering App. It offers comprehensive search, sort, filter, and pagination options. Users can effortlessly manage restaurants, upload images, and handle shopping carts with Stripe integration for secure checkout, alongside a real-time order tracking status",
 		tags: [
 			"auth0",
 			"shadcn",
