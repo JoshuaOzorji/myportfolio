@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.padding {
+	@apply w-full px-4 md:px-0 mx-auto md:max-w-[50%] my-12 md:my-24;
+}
+
+.text-light-dark {
+	@apply text-gray-900 dark:text-gray-200;
+}
+.bg-light-dark {
+	@apply bg-slate-100 dark:bg-slate-950;
+}
+
+.hero-contact-icons {
+	@apply bg-gray-200 dark:bg-gray-800 p-2 text-gray-700 dark:text-gray-300 hover:text-gray-950 dark:hover:text-gray-200 flex items-center gap-1 rounded-full focus:scale-[110%] hover:scale-[110%] hover:bg-gray-100 dark:hover:bg-gray-900 active:scale-[110%] transition duration-500 cursor-pointer border border-black/10 dark:border-white/10;
+}
+
+.section-heading {
+	@apply font-chonburi text-3xl md:text-5xl mb-4 text-center text-gray-950;
+}
+
+.sm-md-paragraph-text {
+	@apply text-[1rem] md:text-lg;
+}
+.image-container {
+	height: 30vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.image-inner {
+	position: absolute;
+	transition: all 5s ease;
+	width: 100%;
+}
+
+.group-hover-container:hover .image-container .image-inner {
+	transform: translateY(-74%);
+}
+
+.form-focus {
+	@apply border active:outline-none focus:outline-none focus:border-[#9a8c98] dark:focus:border-[#ffff3f];
+}
