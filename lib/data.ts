@@ -143,7 +143,7 @@ export const projectsData = [
 	{
 		title: "Reserva Booking",
 		description:
-			"Hotel and Apartment Booking App featuring secure JWT and HTTP cookie authentication, advanced searching, sorting, and filtering, seamless pagination, Stripe-integrated payments, sophisticated forms, image uploads, and effortless hotel/apartment management",
+			"Hotel/Apartment Booking App. Inspired by Booking.com featuring advanced searching, sorting, and filtering, seamless pagination, Stripe-integrated payments, sophisticated forms, image uploads, and effortless hotel/apartment management",
 		tags: [
 			"react",
 			"typescript",
@@ -164,9 +164,9 @@ export const projectsData = [
 	},
 
 	{
-		title: "Fiverr App",
+		title: "Online marketplace",
 		description:
-			"A user-friendly Fiverr clone, built with a sleek design using React. Secured with Stripe for safe payments and Express with JsonWebToken for protecting users information",
+			"Online marketplace - Fiverr inspired. Developed with features including - accounts for sellers and buyers, real-time chat, sellers can create and manage gigs, & users can also review gigs/services. Built using the MERN stack",
 		tags: [
 			"react",
 			"tailwind",
@@ -181,6 +181,7 @@ export const projectsData = [
 		code: "https://github.com/JoshuaOzorji/fiverr-app",
 		live: "https://fiverr-appp.netlify.app/",
 	},
+
 	{
 		title: "Byte Store",
 		description:
