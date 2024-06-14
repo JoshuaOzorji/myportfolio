@@ -185,21 +185,23 @@ export const projectsData = [
 	{
 		title: "Byte Store",
 		description:
-			"An e-commerce store with authentication for users and secured payment system",
-		tags: ["react", "auth0", "stripe", "tailwind"],
+			"An ecommerce store built using using React, Auth0 for authentication, and Stripe for payment. React context and reducers was deployed for managing states and Axios for fetching data.",
+		tags: ["react", "auth0", "stripe", "tailwindcss", "axios"],
 		imageUrl: byteStore,
 		code: "https://github.com/JoshuaOzorji/ecommerce",
 		live: "https://byte-store.netlify.app/",
 	},
+
 	{
 		title: "Byte Crafters",
 		description:
-			"A simple blog app, featuring a Sanity backend for managing contents, built with Next.js, Sanity.io, React, and Tailwind CSS",
+			"A simple blog app, featuring a Sanity backend for managing contents. Developed with Next.js, SanityCMS, React, and TailwindCSS",
 		tags: ["react", "typescript", "nextjs", "tailwind", "sanitycms"],
 		imageUrl: byteCrafters,
 		code: "https://github.com/JoshuaOzorji/bytecrafters",
 		live: "https://bytecrafters.vercel.app/",
 	},
+
 	{
 		title: "Hotel App",
 		description:
@@ -212,7 +214,7 @@ export const projectsData = [
 	{
 		title: "GoDaddy Landing Page",
 		description:
-			"Redesigned GoDaddy landing page project developed using, React, Tailwind and React libraries e.g Swiper JS, Lazy loading",
+			"Everyone remembers their first. This is my first! And after then, the journey has been memorable. Just a redesign of GoDaddy Landing Page",
 		tags: ["react", "tailwind", "swiperjs"],
 		imageUrl: godaddy,
 		code: "https://github.com/JoshuaOzorji/godaddy_app",
