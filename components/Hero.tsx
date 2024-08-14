@@ -16,13 +16,13 @@ const Hero = () => {
 		<section
 			ref={ref}
 			id='home'
-			className='w-full text-center scroll-mt-[100rem] mb-24 md:mb-0 my-auto'>
-			<div className='mt-[6rem] flex flex-col justify-between md:py-8 '>
+			className='w-full text-center scroll-mt-[100rem] mb-24 md:mb-0 my-auto min-h-fit'>
+			<div className='mt-[6rem] flex flex-col justify-between md:py-6'>
 				<motion.h1
 					initial={{ y: 75, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ delay: 0.5 }}
-					className='font-chonburi text-4xl md:text-6xl md:px-36 font-bold px-8 text-light-dark md:leading-[4.3rem]'>
+					className='font-chonburi text-4xl md:text-6xl md:px-36 font-bold px-8 text-light-dark  md:leading-[4.3rem]'>
 					{`Hello, I'm Josh, a full-stack web developer (MERN).`} <br />
 					My passion is turning ideas into reality, using coding as my tool.
 				</motion.h1>
