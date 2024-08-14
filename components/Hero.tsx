@@ -16,19 +16,22 @@ const Hero = () => {
 		<section
 			ref={ref}
 			id='home'
-			className='w-full text-center scroll-mt-[100rem] mb-24'>
-			<div className='mt-[6rem] md:my-28'>
+			className='w-full text-center scroll-mt-[100rem] mb-24 md:mb-0 my-auto'>
+			<div className='mt-[6rem] flex flex-col justify-between md:py-8 '>
 				<motion.h1
 					initial={{ y: 75, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ delay: 0.5 }}
-					className='font-chonburi text-4xl md:text-6xl md:px-36 font-bold px-8 text-light-dark md:leading-[4.3rem]'>{`Hello, I'm Josh, a full-stack web developer. My passion is turning ideas into reality, using coding as my tool.`}</motion.h1>
+					className='font-chonburi text-4xl md:text-6xl md:px-36 font-bold px-8 text-light-dark md:leading-[4.3rem]'>
+					{`Hello, I'm Josh, a full-stack web developer (MERN).`} <br />
+					My passion is turning ideas into reality, using coding as my tool.
+				</motion.h1>
 
 				<motion.div
 					initial={{ y: 75, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ delay: 1 }}
-					className='my-6 flex flex-col md:flex-row items-center justify-center gap-2 font-abel'>
+					className='my-6 flex flex-col md:flex-row items-center justify-center gap-3 md:gap-2 font-abel'>
 					<Link
 						href='#contact'
 						className='group bg-gray-900 dark:bg-gray-300 text-gray-100 dark:text-gray-900 px-4 py-1 flex items-center justify-center rounded-full outline-none focus:scale-105 hover:bg-gray-950 dark:hover:bg-gray-200 transition gap-2'
@@ -51,7 +54,7 @@ const Hero = () => {
 						<HiDownload className='group-hover:translate-y-1 transition duration-500' />
 					</a>
 
-					<div className='flex gap-2'>
+					<div className='flex gap-3 md:gap-2'>
 						{/* GITHUB LINK */}
 						<a
 							className='hero-contact-icons'
