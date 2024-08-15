@@ -23,8 +23,8 @@ const Hero = () => {
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ delay: 0.5 }}
 					className='font-chonburi text-4xl md:text-6xl md:px-36 font-bold px-8 text-light-dark leading-[2.8rem] md:leading-[4.3rem]'>
-					{`Hello, I'm Josh, a full-stack web developer (MERN).`} <br />
-					My passion is turning ideas into reality, using coding as my tool.
+					{`Hello, I'm Josh, a full-stack web developer - MERN`} <br />
+					My passion is turning ideas into reality, using coding as my tool
 				</motion.h1>
 
 				<motion.div

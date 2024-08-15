@@ -14,16 +14,22 @@ const Footer = () => {
 			<div className='flex flex-row gap-4'>
 				<a
 					href='https://github.com/JoshuaOzorji'
+					target='_blank'
+					rel='noopener noreferrer'
 					className='underline cursor-pointer'>
 					GITHUB
 				</a>
 				<a
 					href='https://www.linkedin.com/in/joshua-ozorji/'
+					target='_blank'
+					rel='noopener noreferrer'
 					className='underline cursor-pointer'>
 					LINKEDIN
 				</a>
 				<a
 					href='https://wa.me/2347038514969'
+					target='_blank'
+					rel='noopener noreferrer'
 					className='underline cursor-pointer'>
 					WHATSAPP
 				</a>
