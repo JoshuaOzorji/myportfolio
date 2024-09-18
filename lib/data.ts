@@ -11,6 +11,7 @@ import fiverr from "@/public/fiverr-app1.jpg";
 import reserva from "@/public/reserva-booking.jpg";
 import apposwift from "@/public/apposwift.jpg";
 import twitter from "@/public/twitter-app.jpg";
+import expenseTracker from "@/public/expense-tracker-thumbnail.jpg";
 
 import {
 	SiExpress,
@@ -93,6 +94,28 @@ export const skillsData = [
 ] as const;
 
 export const projectsData = [
+	{
+		title: "Expense Tracker",
+		description:
+			"A MERN stack expense tracker that enables users to record and manage their transactions, monitor spending patterns, and edit or remove entries. It offers a user-friendly platform for organizing finances and overseeing personal budgets",
+		tags: [
+			"reactjs",
+			"typescript",
+			"tailwindcss",
+			"tanstack-query",
+			"shadcn",
+			"expressjs",
+			"nodejs",
+			"mongodb",
+			"cloudinary",
+			"mongoose",
+		],
+
+		imageUrl: expenseTracker,
+		code: "https://github.com/JoshuaOzorji/expense-tracker-app",
+		live: "https://expense-trackker-app.vercel.app/",
+	},
+
 	{
 		title: "Social Hub",
 		description:
@@ -196,7 +219,13 @@ export const projectsData = [
 		title: "Byte Crafters",
 		description:
 			"A simple blog app, featuring a Sanity backend for managing contents. Developed with Next.js, SanityCMS, React, and TailwindCSS",
-		tags: ["react", "typescript", "nextjs", "tailwind", "sanitycms"],
+		tags: [
+			"react",
+			"typescript",
+			"nextjs",
+			"tailwind",
+			"sanitycms",
+		],
 		imageUrl: byteCrafters,
 		code: "https://github.com/JoshuaOzorji/bytecrafters",
 		live: "https://bytecrafters.vercel.app/",
