@@ -12,6 +12,7 @@ import reserva from "@/public/reserva-booking.jpg";
 import apposwift from "@/public/apposwift.jpg";
 import twitter from "@/public/twitter-app.jpg";
 import expenseTracker from "@/public/expense-tracker-thumbnail.jpg";
+import pandas from "@/public/pandas-clothing.jpeg";
 
 import {
 	SiExpress,
@@ -240,14 +241,15 @@ export const projectsData = [
 		code: "https://github.com/JoshuaOzorji/hotel-app",
 		live: "https://hotel-appp.netlify.app/",
 	},
+
 	{
-		title: "GoDaddy Landing Page",
+		title: "Panda Clothing Landing Page",
 		description:
-			"Everyone remembers their first. This is my first! And after then, the journey has been memorable. Just a redesign of GoDaddy Landing Page",
-		tags: ["react", "tailwind", "swiperjs"],
-		imageUrl: godaddy,
-		code: "https://github.com/JoshuaOzorji/godaddy_app",
-		live: "https://godaddy-page.netlify.app",
+			"A modern and minimalist landing page for a clothing store, built with React, Tailwind CSS, and TypeScript. It features a sleek design to showcase the brand and attract customers with a clean, responsive interface",
+		tags: ["react", "tailwindcss", "typescript"],
+		imageUrl: pandas,
+		code: "https://github.com/JoshuaOzorji/hng-stage-two",
+		live: "https://pandas-clothing.vercel.app/",
 	},
 
 	{
@@ -265,5 +267,15 @@ export const projectsData = [
 		imageUrl: portfolio,
 		code: "https://github.com/JoshuaOzorji/myportfolio",
 		live: "https://joshua-ozorji.vercel.app",
+	},
+
+	{
+		title: "GoDaddy Landing Page",
+		description:
+			"Everyone remembers their first. This is my first! And after then, the journey has been memorable. Just a redesign of GoDaddy Landing Page",
+		tags: ["react", "tailwind", "swiperjs"],
+		imageUrl: godaddy,
+		code: "https://github.com/JoshuaOzorji/godaddy_app",
+		live: "https://godaddy-page.netlify.app",
 	},
 ] as const;
