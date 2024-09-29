@@ -10,7 +10,8 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
 	const { ref } = useSectionInView("Home", 0.5);
-	const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+	const { setActiveSection, setTimeOfLastClick } =
+		useActiveSectionContext();
 
 	return (
 		<section
@@ -23,8 +24,10 @@ const Hero = () => {
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ delay: 0.5 }}
 					className='font-chonburi text-4xl md:text-6xl md:px-36 font-bold px-8 text-light-dark leading-[2.8rem] md:leading-[4.3rem]'>
-					{`Hello, I'm Josh, a full-stack web developer - MERN`} <br />
-					My passion is turning ideas into reality, using coding as my tool
+					{`Hello, I'm Josh, a full-stack web developer - MERN`}{" "}
+					<br />
+					My passion is turning ideas into
+					reality, using coding as my tool
 				</motion.h1>
 
 				<motion.div
@@ -36,8 +39,12 @@ const Hero = () => {
 						href='#contact'
 						className='group bg-gray-900 dark:bg-gray-300 text-gray-100 dark:text-gray-900 px-4 py-1 flex items-center justify-center rounded-full outline-none focus:scale-105 hover:bg-gray-950 dark:hover:bg-gray-200 transition gap-2'
 						onClick={() => {
-							setActiveSection("Contact");
-							setTimeOfLastClick(Date.now());
+							setActiveSection(
+								"Contact",
+							);
+							setTimeOfLastClick(
+								Date.now(),
+							);
 						}}>
 						<p className='group-hover:text-gray-300 dark:group-hover:text-gray-600'>
 							Contact me

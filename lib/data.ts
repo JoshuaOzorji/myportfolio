@@ -2,6 +2,8 @@ import React from "react";
 import { AiFillGithub, AiFillHtml5 } from "react-icons/ai";
 import { DiNodejs } from "react-icons/di";
 import { FaCss3Alt, FaReact } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
+import { FaPython } from "react-icons/fa6";
 import godaddy from "@/public/godaddyLandingPage1.png";
 import hotelApp from "@/public/hotelBookingApp1.png";
 import byteCrafters from "@/public/byteCrafters1.png";
@@ -91,6 +93,16 @@ export const skillsData = [
 	{
 		name: "GitHub",
 		icon: React.createElement(AiFillGithub),
+	},
+
+	{
+		name: "Python",
+		icon: React.createElement(FaPython),
+	},
+
+	{
+		name: "Django",
+		icon: React.createElement(SiDjango),
 	},
 ] as const;
 
