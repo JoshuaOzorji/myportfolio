@@ -79,6 +79,10 @@ export const skillsData = [
 		icon: React.createElement(SiTypescript),
 	},
 	{
+		name: "NodeJS",
+		icon: React.createElement(DiNodejs),
+	},
+	{
 		name: "MongoDB",
 		icon: React.createElement(SiMongodb),
 	},
@@ -86,23 +90,18 @@ export const skillsData = [
 		name: "ExpressJS",
 		icon: React.createElement(SiExpress),
 	},
-	{
-		name: "NodeJS",
-		icon: React.createElement(DiNodejs),
-	},
-	{
-		name: "GitHub",
-		icon: React.createElement(AiFillGithub),
-	},
 
 	{
 		name: "Python",
 		icon: React.createElement(FaPython),
 	},
-
 	{
 		name: "Django",
 		icon: React.createElement(SiDjango),
+	},
+	{
+		name: "GitHub",
+		icon: React.createElement(AiFillGithub),
 	},
 ] as const;
 

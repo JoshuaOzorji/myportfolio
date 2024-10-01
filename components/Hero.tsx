@@ -24,7 +24,7 @@ const Hero = () => {
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ delay: 0.5 }}
 					className='font-chonburi text-4xl md:text-6xl md:px-36 font-bold px-8 text-light-dark leading-[2.8rem] md:leading-[4.3rem]'>
-					{`Hello, I'm Josh, a full-stack web developer - MERN`}{" "}
+					{`Hello, I'm Josh, a full-stack web developer`}{" "}
 					<br />
 					My passion is turning ideas into
 					reality, using coding as my tool
