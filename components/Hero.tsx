@@ -54,7 +54,7 @@ const Hero = () => {
 
 					<a
 						className='group bg-gray-200 dark:bg-gray-800  text-gray-950 dark:text-gray-50 px-4 py-1 flex items-center justify-center rounded-full outline-none focus:scale-105 hover:bg-gray-100 dark:hover:bg-gray-900 transition gap-2 border border-black/10 dark:border-white/10'
-						href='/CV.pdf'
+						href='/JOSHUA_OZORJI_CV.pdf'
 						download>
 						{" "}
 						Download CV
