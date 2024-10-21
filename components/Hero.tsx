@@ -23,7 +23,7 @@ const Hero = () => {
 					initial={{ y: 75, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ delay: 0.5 }}
-					className='md:px-32 font-bold px-8 text-light-dark leading-[2.8rem] md:leading-[4.3rem] text-4xl md:text-6xl font-chonburi'>
+					className='md:px-32 font-bold px-4 text-light-dark leading-[2.8rem] md:leading-[4.3rem] text-4xl md:text-6xl font-chonburi'>
 					<p>{`Hello, I'm Josh, a full-stack web developer.`}</p>
 					<p>
 						I transform ideas into engaging
