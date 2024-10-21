@@ -29,13 +29,24 @@ const About = () => {
 				transition={{ delay: 0.2 }}
 				viewport={{ once: true }}
 				className='font-abel sm-md-paragraph-text md:leading-loose'>
-				{`
-				I'm Josh, a passionate full-stack web developer with over two years of experience in transforming ideas into high-quality digital solutions. My journey in web development began as a genuine pursuit of my interests, leading me to learn various programming languages and frameworks.
-
-				I’m dedicated to writing clean, efficient code and continuously strive to deepen my understanding of best practices. This commitment drives me to take on challenging projects that push my skills further and foster collaboration with like-minded professionals.
-
-				My adaptability and strong problem-solving abilities enable me to build user-friendly web applications that deliver real value. I believe in the importance of personal and professional growth, and I’m always eager to learn new technologies and methodologies to stay ahead in this fast-evolving field.
-				`}
+				My journey in web development began as a genuine
+				pursuit of my interests, leading me to learn
+				various programming languages and frameworks.
+				<br />
+				I’m dedicated to writing clean, efficient code
+				and continuously strive to deepen my
+				understanding of best practices. This commitment
+				drives me to take on challenging projects that
+				push my skills further and foster collaboration
+				with like-minded professionals.
+				<br />
+				My adaptability and strong problem-solving
+				abilities enable me to build user-friendly web
+				applications that deliver real value. I believe
+				in the importance of personal and professional
+				growth, and I’m always eager to learn new
+				technologies and methodologies to stay ahead in
+				this fast-evolving field.
 			</motion.p>
 		</motion.section>
 	);
