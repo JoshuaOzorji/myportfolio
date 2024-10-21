@@ -23,21 +23,23 @@ const Hero = () => {
 					initial={{ y: 75, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ delay: 0.5 }}
-					className='font-chonburi text-4xl md:text-6xl md:px-36 font-bold px-8 text-light-dark leading-[2.8rem] md:leading-[4.3rem]'>
-					{`Hello, I'm Josh, a full-stack web developer`}{" "}
-					<br />
-					My passion is turning ideas into
-					reality, using coding as my tool
+					className='md:px-32 font-bold px-8 text-light-dark leading-[2.8rem] md:leading-[4.3rem] text-4xl md:text-6xl font-chonburi'>
+					<p>{`Hello, I'm Josh, a full-stack web developer.`}</p>
+					<p>
+						I transform ideas into engaging
+						digital experiences, using
+						coding as my tool.
+					</p>
 				</motion.h1>
 
 				<motion.div
 					initial={{ y: 75, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ delay: 1 }}
-					className='my-6 flex flex-col md:flex-row items-center justify-center gap-3 md:gap-2 font-abel'>
+					className='flex flex-col items-center justify-center gap-3 my-6 md:flex-row md:gap-2 font-abel'>
 					<Link
 						href='#contact'
-						className='group bg-gray-900 dark:bg-gray-300 text-gray-100 dark:text-gray-900 px-4 py-1 flex items-center justify-center rounded-full outline-none focus:scale-105 hover:bg-gray-950 dark:hover:bg-gray-200 transition gap-2'
+						className='flex items-center justify-center gap-2 px-4 py-1 text-gray-100 transition bg-gray-900 rounded-full outline-none group dark:bg-gray-300 dark:text-gray-900 focus:scale-105 hover:bg-gray-950 dark:hover:bg-gray-200'
 						onClick={() => {
 							setActiveSection(
 								"Contact",
@@ -49,16 +51,16 @@ const Hero = () => {
 						<p className='group-hover:text-gray-300 dark:group-hover:text-gray-600'>
 							Contact me
 						</p>
-						<HiOutlineMail className='opacity-75 group-hover:translate-x-1 group transition duration-500 group-hover:text-gray-300 dark:group-hover:text-gray-600' />
+						<HiOutlineMail className='transition duration-500 opacity-75 group-hover:translate-x-1 group group-hover:text-gray-300 dark:group-hover:text-gray-600' />
 					</Link>
 
 					<a
-						className='group bg-gray-200 dark:bg-gray-800  text-gray-950 dark:text-gray-50 px-4 py-1 flex items-center justify-center rounded-full outline-none focus:scale-105 hover:bg-gray-100 dark:hover:bg-gray-900 transition gap-2 border border-black/10 dark:border-white/10'
+						className='flex items-center justify-center gap-2 px-4 py-1 transition bg-gray-200 border rounded-full outline-none group dark:bg-gray-800 text-gray-950 dark:text-gray-50 focus:scale-105 hover:bg-gray-100 dark:hover:bg-gray-900 border-black/10 dark:border-white/10'
 						href='/JOSHUA_OZORJI_CV.pdf'
 						download>
 						{" "}
 						Download CV
-						<HiDownload className='group-hover:translate-y-1 transition duration-500' />
+						<HiDownload className='transition duration-500 group-hover:translate-y-1' />
 					</a>
 
 					<div className='flex gap-3 md:gap-2'>
