@@ -12,7 +12,7 @@ const About = () => {
 			whileInView={{ opacity: 1 }}
 			ref={ref}
 			id='about'
-			className='padding text-center scroll-mt-28 text-gray-900 text-light-dark'>
+			className='text-center text-gray-900 padding scroll-mt-28 text-light-dark'>
 			<SectionHeading>
 				<motion.p
 					initial={{ opacity: 0, y: 50 }}
@@ -42,11 +42,11 @@ const About = () => {
 				<br />
 				My adaptability and strong problem-solving
 				abilities enable me to build user-friendly web
-				applications that deliver real value. I believe
-				in the importance of personal and professional
-				growth, and I’m always eager to learn new
-				technologies and methodologies to stay ahead in
-				this fast-evolving field.
+				applications that deliver real value.
+				<br />I believe in the importance of personal
+				and professional growth, and I’m always eager to
+				learn new technologies and methodologies to stay
+				ahead in this fast-evolving field.
 			</motion.p>
 		</motion.section>
 	);
