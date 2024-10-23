@@ -42,7 +42,7 @@ const Hero = () => {
 				<motion.div
 					initial={{ y: 75, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
-					transition={{ delay: 2 }}
+					transition={{ delay: 2.5 }}
 					className='flex flex-col items-center justify-center gap-3 my-6 md:flex-row md:gap-2 font-abel'>
 					<Link
 						href='#contact'
