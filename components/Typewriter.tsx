@@ -22,12 +22,16 @@ export const Typewriter = ({ text, ...rest }: TypewriterProps) => (
 		initial='hidden'
 		animate='visible'
 		{...rest}>
-		{text.split("").map((char, i) => (
-			<motion.span
-				key={`${char}-${i}`}
-				variants={letterVariants}>
-				{char}
-			</motion.span>
-		))}
+		{text.split("").map((char: string, i: number) =>
+			char === "\n" ? (
+				<br key={i} />
+			) : (
+				<motion.span
+					key={`${char}-${i}`}
+					variants={letterVariants}>
+					{char}
+				</motion.span>
+			),
+		)}
 	</motion.p>
 );

@@ -20,22 +20,9 @@ const Hero = () => {
 			id='home'
 			className='w-full text-center scroll-mt-[100rem] mb-24 md:mb-0 my-auto min-h-fit'>
 			<div className='mt-[6rem] flex flex-col justify-between md:py-6'>
-				{/* <motion.h1
-					initial={{ y: 75, opacity: 0 }}
-					animate={{ y: 0, opacity: 1 }}
-					transition={{ delay: 0.5 }}
-					className='md:px-32 font-bold px-4 text-light-dark leading-[2.8rem] md:leading-[4.3rem] text-4xl md:text-6xl font-chonburi'>
-					<p>{`Hello, I'm Josh, a full-stack web developer.`}</p>
-					<p>
-						I transform ideas into engaging
-						digital experiences, using
-						coding as my tool.
-					</p>
-				</motion.h1> */}
-
 				<h1 className='md:px-32 font-bold px-4 text-light-dark leading-[2.8rem] md:leading-[4.3rem] text-4xl md:text-6xl font-chonburi'>
 					<Typewriter
-						text={`Hello, I'm Josh, a full-stack web developer.	I transform ideas into engaging digital experiences, using coding as my tool.`}
+						text={`Hello, I'm Josh, a full-stack web developer.\nI transform ideas into engaging digital experiences, using coding as my tool.`}
 					/>
 				</h1>
 
