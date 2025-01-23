@@ -16,6 +16,7 @@ import apposwift from "@/public/apposwift.jpg";
 import twitter from "@/public/twitter-app.jpg";
 import expenseTracker from "@/public/expense-tracker-thumbnail.jpg";
 import pandas from "@/public/pandas-clothing.jpeg";
+import blitscorner from "@/public/blitscorner.jpg";
 
 import {
 	SiExpress,
@@ -111,6 +112,23 @@ export const skillsData = [
 ] as const;
 
 export const projectsData = [
+	{
+		title: "Blits Corner",
+		description:
+			"A blog site built with Next.js and Sanity CMS. It features a clean, minimalist design, with a focus on readability and user experience. Users can read, share posts, while admins can manage content with the Sanity Studio dashboard",
+		tags: [
+			"nextjs",
+			"sanity-cms",
+			"typescript",
+			"tailwindcss",
+			"shadcn",
+		],
+
+		imageUrl: blitscorner,
+		code: "https://github.com/JoshuaOzorji/blitscorner",
+		live: "https://blitscorner.vercel.app",
+	},
+
 	{
 		title: "Expense Tracker",
 		description:
