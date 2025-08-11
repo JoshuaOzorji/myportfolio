@@ -29,6 +29,7 @@ const About = () => {
 				transition={{ delay: 0.2 }}
 				viewport={{ once: true }}
 				className='font-abel sm-md-paragraph-text md:leading-loose'>
+<<<<<<< HEAD
 				My journey in web development began as a genuine
 				pursuit of my interests, leading me to learn
 				various programming languages and frameworks.
@@ -47,6 +48,20 @@ const About = () => {
 				and professional growth, and I’m always eager to
 				learn new technologies and methodologies to stay
 				ahead in this fast-evolving field.
+=======
+				{`I'm focused on writing clean codes and understanding the
+				logic behind clean codes, this gives me the push to work/collaborate on
+				projects more challenging than my previous.`}
+				<br />
+				Over the last two years, I have dedicated myself
+				to self-learning and gaining expertise in
+				programming languages, web development
+				frameworks, and building user-friendly web
+				applications. <br />
+				My journey reflects my adaptability, dedication,
+				and commitment to personal and professional
+				growth. <br />
+>>>>>>> 78bed6b (about page edit)
 			</motion.p>
 		</motion.section>
 	);
