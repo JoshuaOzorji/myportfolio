@@ -29,26 +29,6 @@ const About = () => {
 				transition={{ delay: 0.2 }}
 				viewport={{ once: true }}
 				className='font-abel sm-md-paragraph-text md:leading-loose'>
-<<<<<<< HEAD
-				My journey in web development began as a genuine
-				pursuit of my interests, leading me to learn
-				various programming languages and frameworks.
-				<br />
-				I’m dedicated to writing clean, efficient code
-				and continuously strive to deepen my
-				understanding of best practices. This commitment
-				drives me to take on challenging projects that
-				push my skills further and foster collaboration
-				with like-minded professionals.
-				<br />
-				My adaptability and strong problem-solving
-				abilities enable me to build user-friendly web
-				applications that deliver real value.
-				<br />I believe in the importance of personal
-				and professional growth, and I’m always eager to
-				learn new technologies and methodologies to stay
-				ahead in this fast-evolving field.
-=======
 				{`I'm focused on writing clean codes and understanding the
 				logic behind clean codes, this gives me the push to work/collaborate on
 				projects more challenging than my previous.`}
@@ -61,7 +41,6 @@ const About = () => {
 				My journey reflects my adaptability, dedication,
 				and commitment to personal and professional
 				growth. <br />
->>>>>>> 78bed6b (about page edit)
 			</motion.p>
 		</motion.section>
 	);
