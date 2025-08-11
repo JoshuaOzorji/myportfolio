@@ -22,7 +22,7 @@ const Hero = () => {
 			<div className='mt-[6rem] flex flex-col justify-between md:py-6'>
 				<h1 className='md:px-32 font-bold px-4 text-light-dark leading-[2.8rem] md:leading-[4.3rem] text-4xl md:text-6xl font-chonburi'>
 					<Typewriter
-						text={`Hello, I'm Josh, a full-stack web developer.\nI transform ideas into engaging digital experiences, using coding as my tool.`}
+						text={`Hello, I'm Josh, a full-stack web developer.\nI turn ideas into engaging digital experiences, crafting innovative solutions through code.`}
 					/>
 				</h1>
 

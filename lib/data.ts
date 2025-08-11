@@ -115,6 +115,26 @@ export const projectsData = [
 	{
 		title: "Blits Corner",
 		description:
+			"A comprehensive job board platform built with Next.js 15, Sanity CMS, and MongoDB. This application allows job seekers to browse and search for jobs while enabling employers to post job listings after creating company profiles",
+		tags: [
+			"nextjs",
+			"sanity-cms",
+			"typescript",
+			"tailwindcss",
+			"shadcn",
+			"mongodb",
+			"mongoose",
+			"tanstack-query",
+		],
+
+		imageUrl: blitscorner,
+		code: "https://github.com/JoshuaOzorji/everything-jobs",
+		live: "https://everything-jobs.vercel.app",
+	},
+
+	{
+		title: "Blits Corner",
+		description:
 			"A blog site built with Next.js and Sanity CMS. It features a clean, minimalist design, with a focus on readability and user experience. Users can read, share posts, while admins can manage content with the Sanity Studio dashboard",
 		tags: [
 			"nextjs",
