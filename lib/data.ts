@@ -17,6 +17,7 @@ import twitter from "@/public/twitter-app.jpg";
 import expenseTracker from "@/public/expense-tracker-thumbnail.jpg";
 import pandas from "@/public/pandas-clothing.jpeg";
 import blitscorner from "@/public/blitscorner.jpg";
+import eJobs from "@/public/e-jobs1.jpg";
 
 import {
 	SiExpress,
@@ -113,9 +114,9 @@ export const skillsData = [
 
 export const projectsData = [
 	{
-		title: "Blits Corner",
+		title: "Everything Jobs",
 		description:
-			"A comprehensive job board platform built with Next.js 15, Sanity CMS, and MongoDB. This application allows job seekers to browse and search for jobs while enabling employers to post job listings after creating company profiles",
+			"A comprehensive job board platform built with Next.js, Sanity CMS, and MongoDB. This application allows job seekers to browse and search for jobs while enabling employers to post job listings after creating company profiles",
 		tags: [
 			"nextjs",
 			"sanity-cms",
@@ -127,7 +128,7 @@ export const projectsData = [
 			"tanstack-query",
 		],
 
-		imageUrl: blitscorner,
+		imageUrl: eJobs,
 		code: "https://github.com/JoshuaOzorji/everything-jobs",
 		live: "https://everything-jobs.vercel.app",
 	},
